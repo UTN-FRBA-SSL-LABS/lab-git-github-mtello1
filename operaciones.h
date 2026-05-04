@@ -17,6 +17,8 @@ int restar(int a, int b);
 int multiplicar(int a, int b);
 
 /* esPar: devuelve 1 si n es par, 0 si es impar */
-int esPar(int n);
+int esPar(int n) {
+    return (n % 2) == 0;
+}
 
 #endif
